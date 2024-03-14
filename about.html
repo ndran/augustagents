@@ -1,0 +1,72 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>August Agents | About</title>
+    <meta
+      name="description"
+      content="Southern California's Manufacturers' Representative"
+    />
+    <link rel="icon" type="image/svg+xml" href="/assets/images/AA-Logo.svg" />
+    <link rel="stylesheet" href="/assets/css/about.css" />
+  </head>
+  <body>
+    {% include navigation.html %}
+    <main>
+      <div class="content-wrapper">
+        <section class="about-section">
+          <h1>About</h1>
+          <p class="about-description">
+            August Agents was created to help you deliver projects more
+            efficiently. <br /><br />
+            We have over 45 years’ experience in the electrical industry
+            including contractor, distributor, manufacturer, and manufacturer
+            representative backgrounds. Our expertise gives us the ability to
+            understand your projects, anticipate your needs, and consult on
+            solutions to help you deliver on time.<br /><br />
+            When August Agents was founded, we shared the same vision for
+            bringing top brands together to create a one-stop shop for all your
+            electrical needs.
+          </p>
+        </section>
+
+        <div class="carousel-container">
+          <div class="carousel-slide fade">
+            <img src="/assets/images/About-Img-1.png" />
+          </div>
+          <div class="carousel-slide fade">
+            <img src="/assets/images/About-Img-2.png" />
+          </div>
+          <div class="carousel-slide fade">
+            <img src="/assets/images/About-Img-3.png" />
+          </div>
+          <div class="carousel-slide fade">
+            <img src="/assets/images/About-Img-4.png" />
+          </div>
+          <div class="carousel-slide fade">
+            <img src="/assets/images/About-Img-5.png" />
+          </div>
+          <!-- Add more slides as needed -->
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <!-- Add more dots as needed -->
+          </div>
+        </div>
+      </div>
+    </main>
+    {% include footer.html %}
+    <script src="/assets/js/about.js"></script>
+  </body>
+</html>
